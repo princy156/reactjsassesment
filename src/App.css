@@ -1,0 +1,101 @@
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer .col-md-4 {
+  flex-basis: 33.33%;
+  padding: 20px;
+}
+
+.footer h5 {
+  margin-top: 0;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer li {
+  margin-bottom: 10px;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #ccc;
+}
+
+.copyright {
+  background-color: #444;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  clear: both;
+}
+.header {
+  background-color: #333; /* Dark background for the header */
+  color: #fff; /* White text color */
+  padding: 15px 20px; /* Padding around the header */
+  text-align: center; /* Center align text */
+}
+
+.nav {
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center the navigation items */
+  align-items: center; /* Align items vertically */
+}
+
+.nav-list {
+  list-style: none; /* Remove default list styling */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+  display: flex; /* Use flexbox for horizontal layout */
+}
+
+.nav-list li {
+  margin: 0 15px; /* Add space between navigation items */
+}
+
+.nav-list a {
+  color: #fff; /* White text color for links */
+  text-decoration: none; /* Remove underline from links */
+  font-weight: bold; /* Bold text for better visibility */
+  transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.nav-list a:hover {
+  color: #ffa500; /* Change color on hover (orange) */
+}
+
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+  }
+
+  .nav-list {
+    flex-direction: column; /* Stack navigation items vertically */
+  }
+
+  .nav-list li {
+    margin-bottom: 10px; /* Space between stacked items */
+  }
+}
